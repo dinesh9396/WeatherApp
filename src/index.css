@@ -1,0 +1,95 @@
+body {
+  font-family: 'montserrat', sans-serif;
+}
+
+.app{
+  background-image: url('./assets/snow-mountain.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding-top: 25px ;
+}
+
+.searchbox{
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.searchbox .searchbar {
+  /* display: block; */
+  width: 20%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+}
+
+.locationbox .location {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+ .locationbox .date {
+   color: white;
+   font-size: 20px;
+   font-weight: 300;
+   font-style: italic;
+   text-align: center;
+   text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+ }
+
+ .weatherbox .temp {
+   position: relative;
+   display: inline-block;
+   margin: 30px auto;
+   background-color: rgba(255, 255, 255, 0.2);
+   border-radius: 16px;
+   padding: 15px 25px;
+   color: white;
+   font-size: 50px;
+   font-weight: 900;
+   text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+   text-align: center;
+   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+ }
+
+ .weatherbox .weather{
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+ }
+
+ .weatherbox .feelsLike{
+   color: white;
+   margin: 10px auto;
+   font-size: 15px;
+   font-weight: 500;
+   text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+ }
+
+ .weatherbox .maxtemp{
+  color: white;
+  margin: 10px auto;
+  font-size: 15px;
+  font-weight: 500;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.weatherbox .mintemp{
+  color: white;
+  margin: 10px auto;
+  font-size: 15px;
+  font-weight: 500;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
